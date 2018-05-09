@@ -8,3 +8,5 @@ def Fibonacci():
         print(osszeg,end=' ')
         elso_szam=masodik_szam
         masodik_szam=osszeg
+        
+Fibonacci()
