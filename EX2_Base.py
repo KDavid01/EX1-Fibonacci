@@ -58,7 +58,7 @@ def melyikSZR():
         fgv = fgv//hova
 
 
-szam = input('Szám: ')
+szam = input('Kérek egy számot: ')
 honnan = int(input('Melyik számrendszerből: '))
 hova = int(input('Melyik számrendszerbe: '))
 
