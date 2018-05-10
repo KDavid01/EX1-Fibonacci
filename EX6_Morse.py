@@ -18,9 +18,9 @@ morseABC={'A': '.-', 'B': '-...', 'C': '-.-.',
 def forditoMorse(input):
     tmp=''
     szoveg=input.upper()
-    for szo in szoveg:
+    for betu in szoveg:
         for s1,s2 in morseABC.items():
-            if szo == s1:
+            if betu == s1:
                 tmp +=s2
         tmp += ' '
     print(tmp)
