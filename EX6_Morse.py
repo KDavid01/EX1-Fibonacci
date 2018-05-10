@@ -28,11 +28,12 @@ def forditoMorse(input):
 def forditoABC(input2):
     newTmp = ''
     for karakter in input2.split(' '):
+        if karakter=='':
+            newTmp += ' '
         for s1,s2 in morseABC.items():
             if karakter == s2:
                 newTmp += s1
-        newTmp +=' '
-    print(newTmp)
+    print(newTmp.capitalize())
 
 def main():
     x=input("Mire forditsak(morze/abc)?: ")
